@@ -1,0 +1,19 @@
+{
+  "name": "2d-portoflio",
+  "version": "1.0.0",
+  "description": "paquete para el proyecto de portfolio 2d",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuchoDF/2D-PORTOFLIO.git#dev"
+  },
+  "author": "Lucio Della Felice",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuchoDF/2D-PORTOFLIO/issues"
+  },
+  "homepage": "https://github.com/LuchoDF/2D-PORTOFLIO/tree/dev#readme"
+}
