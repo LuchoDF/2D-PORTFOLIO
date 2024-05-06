@@ -10,10 +10,12 @@ export const dialogueData = {
    <a href="https://www.youtube.com/@veritasium" target="_blank">Veritasium</a>, <a href="https://www.youtube.com/@freecodecamp" target="_blank">Free Code Camp</a>,
    <a href="https://www.youtube.com/@Vsauce" target="_blank">Vsauce</a>, and comedy/entertainment channels like : <a href="https://www.youtube.com/@AisladosElPodcast" target="_blank">AisladosPodcast</a>
     and <a href="https://www.youtube.com/@CorridorCrew" target="_blank">CorridorCrew</a> among others.`,
-  bed: `This is where I sleep, wether at night or whenever I need to take a power nap. A good place to be instropective`,
-  cv: ` These are my English and French certificates. Soon my Web Dev diploma will be here! And one day
-  I believe that my Electronics Engineering diploma will be also there, as I was one semester away from
-  graduating before coming to France. My CV is also here. <a href="" target="_blank">Go give it a look!</a>
+  bed: `This is where I sleep, whether at night or whenever I need to take a power nap. A good place to be instropective`,
+  cv: ` These are my <a href="https://github.com/LuchoDF/CV-Certificates/blob/main/Attestation%20_Fran%C3%A7ais_TFI.pdf" target="_blank">French</a>
+  and <a href="https://github.com/LuchoDF/CV-Certificates/blob/main/Attestation_Anglais_Cambridge.pdf" target="_blank">English</a> certificates. Soon my Web Dev diploma will be here! And one day
+  I believe that my Electronics Engineering diploma will be also here, as I was one semester away from
+  graduating before coming to France. I let you check out my <a href="https://github.com/LuchoDF/CV-Certificates/blob/main/Historia%20Acad%C3%A9mica.pdf" target="_blank">Academic History</a>. My CV is also here.
+   <a href="https://github.com/LuchoDF/CV/blob/main/CV_DellaFeliceLucio.pdf" target="_blank">Go give it a look!</a>
   Contact me at luchodellafelice@hotmail.com if you have any interesting job opportunities!`,
   desk: `Info about this portfolio : It's made with the Kaboom.js library which is a library for making games in JavaScript.
   Text is rendered with HTML/CSS. So the textbox you're currently reading is not rendered within canvas. `,
@@ -25,3 +27,5 @@ export const dialogueData = {
   sofaChair: `Perfect to sit on and read something`,
   sport: `This symbolizes a place to do sports. I like to practice Calisthenics and go swimming`,
 };
+
+
