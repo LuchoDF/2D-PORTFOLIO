@@ -14,5 +14,7 @@
   },
   "dependencies": {
     "kaboom": "^3000.1.17"
-  }
+  },
+
+  "homepage": "https://luchodf.github.io/turepositorio/"
 }
