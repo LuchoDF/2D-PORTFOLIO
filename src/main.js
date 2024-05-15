@@ -1,4 +1,4 @@
-import { dialogueData, scaleFactor } from "./constants";
+import { dialogueData_en,dialogueData_es,dialogueData_fr, scaleFactor } from "./constants";
 import { k } from "./kaboomCtx";
 import { displayDialogue, setCamScale } from "./utils";
 
@@ -20,6 +20,23 @@ k.loadSprite("map", "./map.png");
 k.setBackground(k.Color.fromHex("#311047"));
 
 k.scene("main", async () => {
+  const languageSelect = document.getElementById("language-select");
+  const changeLanguageButton = document.getElementById("change-language");
+  let dialogueData = {
+    en: dialogueData_en,
+    es: dialogueData_es,
+    fr: dialogueData_fr
+  };
+  changeLanguageButton.addEventListener("click", () => {
+    const selectedLanguage = languageSelect.value;
+    dialogueData = {
+      en: dialogueData_en,
+      es: dialogueData_es,
+      fr: dialogueData_fr
+    }[selectedLanguage];
+  });
+  
+  
   const mapData = await (await fetch("./map.json")).json();
   const layers = mapData.layers;
 
@@ -53,7 +70,6 @@ k.scene("main", async () => {
           k.pos(boundary.x, boundary.y),
           boundary.name,
         ]);
-
         if (boundary.name) {
           player.onCollide(boundary.name, () => {
             player.isInDialogue = true;
