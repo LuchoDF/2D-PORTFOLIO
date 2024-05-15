@@ -1,6 +1,6 @@
 export const scaleFactor = 4;
 
-export const dialogueData = {
+export const dialogueData_en = {
   pc: `This is my PC. I'm working on several projects in Typescript/Javascript as part of my Full Stack web developer program at
   <a href="https://simplon.co/formation/concepteur-developpeur-d-applications/12" target="_blank">Simplon</a>.
     I've also been working on my CSS and HTML these days by following <a href="https://www.theodinproject.com/" target="_blank">The Odin Project</a> Foundations course. 
@@ -28,4 +28,54 @@ export const dialogueData = {
   sport: `This symbolizes a place to exercise. I like to practice Calisthenics and go swimming`,
 };
 
+export const dialogueData_fr = {
+  pc: `C'est mon PC. Je travaille sur plusieurs projets en TypeScript/Javascript dans le cadre de mon programme de développeur web Full Stack chez <a href="https://simplon.co/formation/concepteur-developpeur-d-applications/12" target="_blank">Simplon</a>.
+    J'ai également travaillé sur mon CSS et HTML ces jours-ci en suivant le cours Foundations de <a href="https://www.theodinproject.com/" target="_blank">The Odin Project</a>. 
+    Pour plus d'informations sur mes projets, voici mon <a href="https://github.com/LuchoDF" target="_blank">Github</a> !`,
+  tv: `C'est ma télé. Je regarde habituellement des séries et des films de science-fiction. Christopher Nolan est mon réalisateur préféré.
+    Je passe aussi pas mal de temps sur Youtube à regarder des chaînes scientifiques/éducatives comme : 
+   <a href="https://www.youtube.com/@veritasium" target="_blank">Veritasium</a>, <a href="https://www.youtube.com/@freecodecamp" target="_blank">Free Code Camp</a>,
+   <a href="https://www.youtube.com/@Vsauce" target="_blank">Vsauce</a>, et des chaînes de comédie/divertissement comme : <a href="https://www.youtube.com/@AisladosElPodcast" target="_blank">AisladosPodcast</a>
+    et <a href="https://www.youtube.com/@CorridorCrew" target="_blank">CorridorCrew</a> entre autres.`,
+  bed: `C'est là que je dors, que ce soit la nuit ou chaque fois que j'ai besoin de faire une sieste. Un bon endroit pour être introspectif.`,
+  cv: `Voici mes certificats <a href="https://github.com/LuchoDF/CV-Certificates/blob/main/Attestation%20_Fran%C3%A7ais_TFI.pdf" target="_blank">français</a>
+  et <a href="https://github.com/LuchoDF/CV-Certificates/blob/main/Attestation_Anglais_Cambridge.pdf" target="_blank">anglais</a>. Bientôt, mon diplôme de développement Web sera là ! Et un jour,
+  je crois que mon diplôme en génie électronique sera également là, car j'étais à un semestre de l'obtenir avant de venir en France. Je vous laisse consulter mon <a href="https://github.com/LuchoDF/CV-Certificates/blob/main/Historia%20Acad%C3%A9mica.pdf" target="_blank">parcours académique</a>. Mon CV est également ici.
+   <a href="https://github.com/LuchoDF/CV/blob/main/CV_DellaFeliceLucio.pdf" target="_blank">Allez jeter un coup d'œil !</a>
+  Contactez-moi à l'adresse luchodellafelice@hotmail.com si vous avez des opportunités d'emploi intéressantes !`,
+  desk: `Informations sur ce portfolio : Il est réalisé avec la bibliothèque Kaboom.js qui est une bibliothèque pour créer des jeux en JavaScript.
+  Le texte est rendu avec HTML/CSS. Donc, la zone de texte que vous êtes en train de lire n'est pas rendue dans le canvas.`,
+  library1: `C'est ma bibliothèque. Je lis principalement des romans et j'essaie de passer du espagnol, anglais et français car
+  J'aime apprendre/améliorer mes compétences linguistiques. Bientôt, l'italien sera ajouté à la liste !`,
+  library2: `C'est ma bibliothèque. Je lis principalement des romans et j'essaie de passer du espagnol, anglais et français car
+  J'aime apprendre/améliorer mes compétences linguistiques. Bientôt, l'italien sera ajouté à la liste !`,
+  sofa: `Un endroit confortable pour regarder la télévision`,
+  sofaChair: `Parfait pour s'asseoir et lire quelque chose`,
+  sport: `Cela symbolise un endroit pour faire de l'exercice. J'aime pratiquer la Calisthénie et aller nager`,
+};
 
+export const dialogueData_es = {
+  pc: `Este es mi PC. Estoy trabajando en varios proyectos en Typescript/Javascript como parte de mi programa de desarrollador web Full Stack en <a href="https://simplon.co/formation/concepteur-developpeur-d-applications/12" target="_blank">Simplon</a>.
+    También he estado trabajando en mi CSS y HTML estos días siguiendo el curso Foundations de <a href="https://www.theodinproject.com/" target="_blank">The Odin Project</a>. 
+    Para obtener más información sobre mis proyectos, aquí está mi <a href="https://github.com/LuchoDF" target="_blank">Github</a>!`,
+  tv: `Esa es mi televisión. Por lo general, veo series y películas de ciencia ficción. Christopher Nolan es mi director favorito.
+    También paso bastante tiempo en YouTube viendo canales de ciencia/educativos como: 
+   <a href="https://www.youtube.com/@veritasium" target="_blank">Veritasium</a>, <a href="https://www.youtube.com/@freecodecamp" target="_blank">Free Code Camp</a>,
+   <a href="https://www.youtube.com/@Vsauce" target="_blank">Vsauce</a>, y canales de comedia/entretenimiento como: <a href="https://www.youtube.com/@AisladosElPodcast" target="_blank">AisladosPodcast</a>
+    y <a href="https://www.youtube.com/@CorridorCrew" target="_blank">CorridorCrew</a>, entre otros.`,
+  bed: `Aquí es donde duermo, ya sea por la noche o cada vez que necesito echar una siesta. Un buen lugar para ser introspectivo.`,
+  cv: `Estos son mis certificados <a href="https://github.com/LuchoDF/CV-Certificates/blob/main/Attestation%20_Fran%C3%A7ais_TFI.pdf" target="_blank">francés</a>
+  y <a href="https://github.com/LuchoDF/CV-Certificates/blob/main/Attestation_Anglais_Cambridge.pdf" target="_blank">inglés</a>. ¡Pronto estará aquí mi diploma de desarrollo web! Y algún día,
+  creo que también estará aquí mi diploma en Ingeniería Electrónica, ya que estaba a un semestre de graduarme antes de venir a Francia. Les dejo que revisen mi <a href="https://github.com/LuchoDF/CV-Certificates/blob/main/Historia%20Acad%C3%A9mica.pdf" target="_blank">Historia Académica</a>. Mi CV también está aquí.
+   <a href="https://github.com/LuchoDF/CV/blob/main/CV_DellaFeliceLucio.pdf" target="_blank">¡Vayan a echar un vistazo!</a>
+  ¡Contáctenme en luchodellafelice@hotmail.com si tienen oportunidades de trabajo interesantes!`,
+  desk: `Información sobre este portafolio: Está hecho con la biblioteca Kaboom.js, que es una biblioteca para hacer juegos en JavaScript.
+  El texto se renderiza con HTML/CSS. Por lo tanto, el cuadro de texto que están leyendo actualmente no está renderizado dentro del lienzo.`,
+  library1: `Esta es mi biblioteca. Principalmente leo novelas e intento alternar entre español, inglés y francés ya que
+  me gusta aprender/mejorar mis habilidades lingüísticas. ¡Pronto se agregará el italiano a la lista!`,
+  library2: `Esta es mi biblioteca. Principalmente leo novelas e intento alternar entre español, inglés y francés ya que
+  me gusta aprender/mejorar mis habilidades lingüísticas. ¡Pronto se agregará el italiano a la lista!`,
+  sofa: `Lugar cómodo para ver la televisión`,
+  sofaChair: `Perfecto para sentarse y leer algo`,
+  sport: `Esto simboliza un lugar para hacer ejercicio. Me gusta practicar Calistenia y nadar`,
+};
