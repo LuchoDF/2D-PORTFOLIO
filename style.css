@@ -14,7 +14,9 @@
         height: 100%;
         position: relative;
       }
-
+      #textbox-container {
+        display: none;
+      }
       #textbox {
         position: absolute;
         left: 10%;
@@ -61,4 +63,22 @@
         flex-direction: column;
         color: rgb(238, 238, 238);
       }
- 
+
+      #change-language {
+        position:absolute;
+        font-family: monogram, monospace;
+        font-size: 2rem;
+        overflow: hidden;
+        top: 10vh;
+        left: 20vh;
+       }
+       
+       #language-select{
+        position:absolute;
+        font-family: monogram, monospace;
+        font-size: 2rem;
+        overflow: hidden;
+        top: 10vh;
+        left: 3vh;
+        padding-bottom: 2px;
+       }
