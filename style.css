@@ -1,10 +1,10 @@
-@font-face {
+/* @font-face {
 font-family: monogram;
 src: url(monogram.ttf);
-}
+} */
 
 body {
-font-family: monogram, monospace;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, monospace;
 font-size: 2rem;
 overflow: hidden;
 }
@@ -43,7 +43,7 @@ user-select: none;
 }
 
 .ui-close-btn {
-font-family: monogram, monospace;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, monospace;
 border-style: none;
 border-radius: 3px;
 padding: 1rem;
@@ -66,7 +66,7 @@ font-size: inherit;
   
   #language-select{
   position:absolute;
-  font-family: monogram, monospace;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, monospace;
   font-size: 2rem;
   overflow: hidden;
   top: 10vh;
