@@ -71,6 +71,7 @@
         overflow: hidden;
         top: 10vh;
         left: 20vh;
+        width: 110px;
        }
        
        #language-select{
@@ -80,5 +81,6 @@
         overflow: hidden;
         top: 10vh;
         left: 3vh;
-        padding-bottom: 2px;
+        box-sizing: content-box;
+        height: 50px;
        }
