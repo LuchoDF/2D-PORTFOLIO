@@ -27,7 +27,7 @@ k.scene("main", async () => {
     es: dialogueData_es,
     fr: dialogueData_fr
   };
-  changeLanguageButton.addEventListener("click", () => {
+  languageSelect.addEventListener("change", () => {
     const selectedLanguage = languageSelect.value;
     dialogueData = {
       en: dialogueData_en,
