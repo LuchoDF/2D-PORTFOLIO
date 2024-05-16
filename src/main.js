@@ -20,13 +20,10 @@ k.loadSprite("map", "./map.png");
 k.setBackground(k.Color.fromHex("#311047"));
 
 k.scene("main", async () => {
-  const languageSelect = document.getElementById("language-select");
-  const changeLanguageButton = document.getElementById("change-language");
-  let dialogueData = {
-    en: dialogueData_en,
-    es: dialogueData_es,
-    fr: dialogueData_fr
-  };
+  let languageSelect = document.getElementById("language-select");
+  let dialogueData = dialogueData_en;
+  languageSelect.value = "en";
+
   languageSelect.addEventListener("change", () => {
     const selectedLanguage = languageSelect.value;
     dialogueData = {
